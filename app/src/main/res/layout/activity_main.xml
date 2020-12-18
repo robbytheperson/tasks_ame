@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayourt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/three_by_three_menu"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/task1_border_for_squares"
+                android:cropToPadding="false"
+                android:onClick="openTask1"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/three_by_three" />
+
+            <ImageView
+                android:id="@+id/reaction_test_menu"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/task1_border_for_squares"
+                android:onClick="openTask2"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/reaction_test" />
+
+            <ImageView
+                android:id="@+id/simon_says_menu"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/task1_border_for_squares"
+                android:onClick="openTask3"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/simon_says" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

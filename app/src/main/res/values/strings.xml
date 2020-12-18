@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Tasks Game</string>
+    <string name="task1Name">Task 1</string>
+    <string name="task2Name">Task 2</string>
+    <string name="task3Name">Task 3</string>
+    <string name="task4Name">Task 4</string>
+    <string name="task5Name">Task 5</string>
+    <string name="task6Name">Task 6</string>
+    <string name="startScreenName">Start</string>
+    <string name="one">1</string>
+    <string name="squareTaskTitle">Click the numbers in order!</string>
+    <string name="timerDefault">7</string>
+    <string name="instructions_default">Instructions</string>
+    <string name="start">START</string>
+    <string name="Color">MAGENTA</string>
+    <string name="correct">correct!</string>
+    <string name="incorrect">incorrect</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="countdown_default">3</string>
+    <string name="go">Go!</string>
+</resources>

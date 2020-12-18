@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/anton</item>
+        <item>@font/archivo_black</item>
+        <item>@font/basic</item>
+        <item>@font/bowlby_one</item>
+        <item>@font/germania_one</item>
+        <item>@font/hammersmith_one</item>
+    </array>
+</resources>

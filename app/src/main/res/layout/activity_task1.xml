@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartScreen">
+
+    <ImageView
+        android:id="@+id/backArrow1"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:onClick="back1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/task0_back_arrow" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32999998"
+        app:srcCompat="@drawable/lightbluesquare" />
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView">
+
+        <TableRow
+            android:id="@+id/TableRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/gridSpace1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/task1_border_for_squares"
+                android:fontFamily="@font/anton"
+                android:gravity="center"
+                android:onClick="boxCheck1"
+                android:text="@string/one"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/gridSpace2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/task1_border_for_squares"
+                android:fontFamily="@font/anton"
+                android:gravity="center"
+                android:onClick="boxCheck2"
+                android:text="@string/one"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/gridSpace3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/task1_border_for_squares"
+                android:fontFamily="@font/anton"
+                android:gravity="center"
+                android:onClick="boxCheck3"
+                android:text="@string/one"
+                android:textSize="36sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/gridSpace4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/task1_border_for_squares"
+                android:fontFamily="@font/anton"
+                android:gravity="center"
+                android:onClick="boxCheck4"
+                android:text="@string/one"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/gridSpace5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/task1_border_for_squares"
+                android:fontFamily="@font/anton"
+                android:gravity="center"
+                android:onClick="boxCheck5"
+                android:text="@string/one"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/gridSpace6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/task1_border_for_squares"
+                android:fontFamily="@font/anton"
+                android:gravity="center"
+                android:onClick="boxCheck6"
+                android:text="@string/one"
+                android:textSize="36sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/gridSpace7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/task1_border_for_squares"
+                android:fontFamily="@font/anton"
+                android:gravity="center"
+                android:onClick="boxCheck7"
+                android:text="@string/one"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/gridSpace8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/task1_border_for_squares"
+                android:fontFamily="@font/anton"
+                android:gravity="center"
+                android:onClick="boxCheck8"
+                android:text="@string/one"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/gridSpace9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/task1_border_for_squares"
+                android:fontFamily="@font/anton"
+                android:gravity="center"
+                android:onClick="boxCheck9"
+                android:text="@string/one"
+                android:textSize="36sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:alpha="0"
+        android:background="@drawable/border_for_timer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:alpha="0"
+        android:background="@drawable/task1_time_left"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <TextView
+        android:id="@+id/timerNum1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/germania_one"
+        android:gravity="center"
+        android:text="@string/timerDefault"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
